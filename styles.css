@@ -185,6 +185,9 @@ h1, h2, h3, p, figure, blockquote { margin: 0; }
 .place .where small { display: block; margin-top: 6px; font: 600 .75rem var(--sans); letter-spacing: .14em; color: var(--orange); }
 .place p + p { margin-top: 12px; }
 .project-media figcaption { z-index: 1; }
+.media-link { display: inline-block; margin-top: 10px; color: var(--teal); font-size: .82rem; font-weight: 600; text-underline-offset: 3px; }
+.media-link::after { content: " \2197"; }
+.media-link:hover { color: var(--orange); }
 .case .stage::after { position: absolute; inset: auto 0 0; height: 45%; background: linear-gradient(transparent, rgb(15 29 34 / 75%)); content: ""; pointer-events: none; }
 .stage-caption { position: absolute; z-index: 2; left: 26px; right: 26px; bottom: 22px; color: var(--white); font-size: .8rem; letter-spacing: .03em; }
 .stage-caption strong { display: block; font: 400 1.5rem var(--display); letter-spacing: -.02em; }
